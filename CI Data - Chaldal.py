@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
-
-
 ## import
 import pandas as pd
 import duckdb
@@ -12,10 +9,6 @@ from bs4 import BeautifulSoup
 import time
 import win32com.client
 from pretty_html_table import build_table
-
-
-# In[2]:
-
 
 ## scrape
 
@@ -116,10 +109,6 @@ for k in keywords:
 # close window
 driver.close()
 
-
-# In[3]:
-
-
 ## previous data
 
 # read
@@ -133,17 +122,9 @@ prev_df['basepack'] = prev_basepack
 prev_df = duckdb.query('''select basepack, quantity grammage, price, price_if_discounted, keyword, brand_unilever, report_time from prev_df where relevance='relevant' and price!='' ''').df()
 display(prev_df)
 
-
-# In[4]:
-
-
 ## present data
 pres_df = duckdb.query('''select basepack, quantity grammage, price, price_if_discounted, keyword, brand_unilever, report_time_to from df_acc where relevance='relevant' and price!='' ''').df()
 display(pres_df)
-
-
-# In[5]:
-
 
 ## compare
 
@@ -209,10 +190,6 @@ with pd.ExcelWriter("C:/Users/Shithi.Maitra/Downloads/CI Data - Chaldal.xlsx") a
     change_df.to_excel(writer, sheet_name="CI Data", index=False)
     summ_df_sheet.to_excel(writer, sheet_name="Summary", index=True)
 
-
-# In[6]:
-
-
 ## summary - email
 qry = '''
 select 
@@ -226,10 +203,6 @@ group by 1
 '''
 summ_df = duckdb.query(qry).df()
 display(summ_df)
-
-
-# In[9]:
-
 
 ## email
 
@@ -261,18 +234,8 @@ newmail.Attachments.Add(filename)
 # send
 newmail.Send()
 
-
-# In[8]:
-
-
 ## stats
 display(change_df.head())
 print("Changes in result: " + str(change_df.shape[0]))
 print("Elapsed time to report (mins): " + str(round((time.time() - start_time) / 60.00, 2)))
-
-
-# In[ ]:
-
-
-
 
