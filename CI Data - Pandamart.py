@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 ## import
 import pandas as pd
 import duckdb
@@ -14,10 +11,6 @@ import re
 import win32com.client
 from pretty_html_table import build_table
 import time        
-
-
-# In[2]:
-
 
 ## scrape
 
@@ -110,10 +103,6 @@ for k in keywords:
 # close window
 driver.close()
 
-
-# In[3]:
-
-
 ## separation
 def get_gm_bp(skus):
 
@@ -147,10 +136,6 @@ def get_gm_bp(skus):
     ret_df['basepack'] = basepack
     return ret_df
 
-
-# In[4]:
-
-
 ## previous data
 prev_df = pd.read_excel(open("C:/Users/Shithi.Maitra/Downloads/Eagle Eye.xlsx", "rb"), sheet_name="Pandamart SoS", header=0, index_col=None).astype(str).replace("nan", "")
 df_sep = get_gm_bp(prev_df['sku'].tolist())
@@ -167,10 +152,6 @@ where current_price!=''
 ''').df()
 display(prev_df)
 
-
-# In[5]:
-
-
 ## present data
 df_sep = get_gm_bp(df_acc['sku'].tolist())
 df_acc['grammage'] = df_sep['grammage'].tolist()
@@ -185,10 +166,6 @@ from df_acc
 where current_price!=''
 ''').df()
 display(pres_df)
-
-
-# In[6]:
-
 
 ## changes
 
@@ -254,10 +231,6 @@ with pd.ExcelWriter("C:/Users/Shithi.Maitra/Downloads/CI Data - Pandamart.xlsx")
     change_df.to_excel(writer, sheet_name="CI Data", index=False)
     summ_df_sheet.to_excel(writer, sheet_name="Summary", index=True)
 
-
-# In[7]:
-
-
 ## summary - email
 qry = '''
 select 
@@ -271,10 +244,6 @@ group by 1
 '''
 summ_df = duckdb.query(qry).df()
 display(summ_df)
-
-
-# In[10]:
-
 
 ## email
 
@@ -306,24 +275,8 @@ newmail.Attachments.Add(filename)
 # send
 newmail.Send()
 
-
-# In[9]:
-
-
 ## stats
 display(change_df.head())
 print("Changes in result: " + str(change_df.shape[0]))
 print("Elapsed time to report (mins): " + str(round((time.time() - start_time) / 60.00, 2)))
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
