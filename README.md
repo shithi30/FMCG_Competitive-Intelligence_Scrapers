@@ -1,6 +1,7 @@
 ## Facebook Competitor Posts Reporting
 <p align="center">
   <img width="555" alt="c5" src="https://github.com/shithi30/FMCG_eCommerce_Competitive-Intelligence_Finance/assets/43873081/be4a58f0-4c18-45d0-8a98-4abbe0247346">
+  <img width="1000" alt="ee8" src="https://github.com/shithi30/FMCG_eCommerce_Competitive-Intelligence_Finance/assets/43873081/0af5b9c1-82a6-4171-adc6-56a676f685d3">
 </p>
 
 ## Competitive Intelligence (CI) - Detailed
