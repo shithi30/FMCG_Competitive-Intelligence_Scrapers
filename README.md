@@ -1,13 +1,13 @@
 ### Similarweb Traffic - Competitive Analysis
 <p align="center">
-  <img width="900" alt="c5" src="https://github.com/user-attachments/assets/c1c62d87-71dd-4176-bbf6-6c4bc43e7ca0">
+  <img width="925" alt="c5" src="https://github.com/user-attachments/assets/c1c62d87-71dd-4176-bbf6-6c4bc43e7ca0">
   <img width="750" alt="ee8" src="https://github.com/user-attachments/assets/30471aa6-f954-4c8a-921e-d4538d22850e">
 </p>
 
 ### Competitive Banner Reporting 
 <p align="center">
 <img width="900" alt="c4" src="https://github.com/user-attachments/assets/e70c8591-965c-4c78-bfe3-e0974f9e8663">
-<img width="700" alt="c4" src="https://github.com/user-attachments/assets/53d77a5f-d535-4086-bee4-ebed73e031e8">
+<img width="680" alt="c4" src="https://github.com/user-attachments/assets/53d77a5f-d535-4086-bee4-ebed73e031e8">
 </p>
 
 ## Competitive Intelligence (CI) - Summary
