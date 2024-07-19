@@ -10,7 +10,7 @@
 <img width="680" alt="c4" src="https://github.com/user-attachments/assets/53d77a5f-d535-4086-bee4-ebed73e031e8">
 </p>
 
-## Flyer Analytics - Competitive Landscape
+### Flyer Analytics - Competitive Landscape
 <p align="center">
   <img width="560" alt="c1" src="https://github.com/user-attachments/assets/65287b0c-485b-4f85-bc73-ef155770e9f7"><br>
   <img width="827" alt="c2" src="https://github.com/user-attachments/assets/4c173c6d-e139-4558-9f25-99bc5c28e7b4"><br>
