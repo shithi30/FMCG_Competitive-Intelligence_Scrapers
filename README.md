@@ -10,18 +10,14 @@
 <img width="680" alt="c4" src="https://github.com/user-attachments/assets/53d77a5f-d535-4086-bee4-ebed73e031e8">
 </p>
 
-## Competitive Intelligence (CI) - Summary
+## Flyer Analytics - Competitive Landscape
 <p align="center">
-  <img width="550" alt="c1" src="https://github.com/shithi30/FMCG_eCommerce_Competitive-Intelligence_Finance/assets/43873081/49803583-8f20-450c-bbbf-14110fed72c4">
-  <img width="550" alt="c2" src="https://github.com/shithi30/FMCG_eCommerce_Competitive-Intelligence_Finance/assets/43873081/7141550d-b0cb-4044-8fb0-ead838bfd1b1">
-  <img width="550" alt="c3" src="https://github.com/shithi30/FMCG_eCommerce_Competitive-Intelligence_Finance/assets/43873081/95577aeb-6861-4527-890f-35a00935e908">
+  <img width="550" alt="c1" src="https://github.com/user-attachments/assets/65287b0c-485b-4f85-bc73-ef155770e9f7">
+  <img width="820" alt="c2" src="https://github.com/user-attachments/assets/4c173c6d-e139-4558-9f25-99bc5c28e7b4">
+  <img width="670" alt="c3" src="https://github.com/user-attachments/assets/6a7283a0-a4e5-4541-b2d8-53418d33936e">
+  <img width="780" alt="c3" src="https://github.com/user-attachments/assets/4a232415-9858-4142-8da5-bdc28dbcff5e">
+  <img width="550" alt="c3" src="https://github.com/user-attachments/assets/cbac5349-99bb-4a20-9ce4-2ebcaaa41d43">  
 </p>
-
-## Competitive Intelligence (CI) - Communication
-<p align="center">
-<img width="680" alt="sos4" src="https://github.com/shithi30/FMCG_eCommerce_Competitive-Intelligence_Finance/assets/43873081/feca2fc8-76a7-4ab2-b0fc-714188a9255e">
-</p>
-
 
 
 
