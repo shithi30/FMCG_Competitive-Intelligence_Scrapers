@@ -1,3 +1,9 @@
+This repository houses scripts for automating Unilever's competitive intelligence (CI) gathering within the digital marketplace.
+- Data pulled weekly, to monitor FMCG market dynamics changes in 5 angles: price, grammage, offer, new launch, discontinuation
+- Competitor social media handles (FB pages) monitored regularly for updates, reported using automated MS Teams notifications
+
+**Tech Stack:** Language - `Python`, Libs - `Selenium, bs4, DuckDB`, Communication - `win32com`, Google Cloud - `GSheets API` 
+
 ### Facebook Competitor Posts Reporting
 <p align="center">
   <img width="555" alt="c5" src="https://github.com/shithi30/FMCG_eCommerce_Competitive-Intelligence_Finance/assets/43873081/be4a58f0-4c18-45d0-8a98-4abbe0247346">
@@ -21,6 +27,9 @@
 <img width="680" alt="sos4" src="https://github.com/shithi30/FMCG_eCommerce_Competitive-Intelligence_Finance/assets/43873081/feca2fc8-76a7-4ab2-b0fc-714188a9255e">
 </p>
 
+<p align="center">
+<strong>Note</strong>: All scraping activities have been performed in compliance with robots.txt regulations.
+</p>
 
 
 
